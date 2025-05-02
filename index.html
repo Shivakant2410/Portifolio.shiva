@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portfolio | Golang Full-Stack Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">&lt;/DEV&gt;</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#stack">Tech Stack</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-gradient"></div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Engineering Scalable Digital Platforms</h1>
+                <p>Full-Stack Golang Developer | Building Fast, Secure, and Modern Web Applications</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="cta-btn">Work With Me</a>
+                    <a href="#stack" class="cta-btn-outline">Explore My Stack</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise">
+        <div class="container">
+            <h2 class="section-title fade-in">What I Do</h2>
+            <p class="section-description fade-in">
+                I specialize in building high-performance, content-heavy web platforms using modern technologies and best practices. My approach focuses on scalability, security, and exceptional user experience.
+            </p>
+            <div class="expertise-grid">
+                <div class="expertise-card fade-in">
+                    <div class="expertise-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Systems with Golang</h3>
+                    <p>Creating efficient and scalable backend architectures using Go's powerful concurrency model and standard libraries. I develop performant APIs with clean code organization.</p>
+                </div>
+                <div class="expertise-card fade-in">
+                    <div class="expertise-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive, accessible, and modern user interfaces with HTML, CSS, and JavaScript. I use Sass for maintainable styling and focus on performance optimization.</p>
+                </div>
+                <div class="expertise-card fade-in">
+                    <div class="expertise-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Optimization</h3>
+                    <p>Designing efficient database schemas and queries in MySQL. I implement indexing strategies, query optimization, and data integrity measures for high-traffic applications.</p>
+                </div>
+                <div class="expertise-card fade-in">
+                    <div class="expertise-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>API-First Architecture</h3>
+                    <p>Developing RESTful and GraphQL APIs with comprehensive documentation. I design scalable microservices that enable seamless frontend-backend communication.</p>
+                </div>
+                <div class="expertise-card fade-in">
+                    <div class="expertise-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>CDN-Based Media Delivery</h3>
+                    <p>Implementing content delivery networks for high-performance media serving. I optimize asset delivery with caching strategies and global distribution.</p>
+                </div>
+                <div class="expertise-card fade-in">
+                    <div class="expertise-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security & Authentication</h3>
+                    <p>Building robust authentication systems, role-based access control, and security measures. I implement best practices for data protection and privacy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <p class="section-description fade-in">
+                These projects showcase my ability to build performant, secure, and scalable web applications across different domains.
+            </p>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="Social media platform.png" alt="Media Platform Screenshot" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">High-Scale Media Platform</h3>
+                        <p class="project-description">
+                            A custom-built video sharing platform handling 500GB+ daily content delivery. Built with a microservices architecture for transcoding, storage, and delivery.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Golang</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">CDN</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="Commmunity Exchange Platform.png" alt="Community Platform Screenshot" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Community Exchange Platform</h3>
+                        <p class="project-description">
+                            Forum-style community site with user listing management, secure private messaging, and real-time notifications. Supports thousands of concurrent users.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Golang</span>
+                            <span class="tech-tag">WebSockets</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Sass</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="Advanced Admin Dashboard.png" alt="Admin Dashboard Screenshot" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Advanced Admin Dashboard</h3>
+                        <p class="project-description">
+                            Comprehensive moderation system with content analytics, user management, and reporting capabilities. Features role-based access control and audit logging.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Golang</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">GraphQL</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="stack">
+        <div class="container">
+            <h2 class="section-title fade-in">Tech Stack</h2>
+            <p class="section-description fade-in">
+                These are the core technologies I use to build scalable, performant, and secure web applications.
+            </p>
+            <div class="tech-stack-grid">
+                <div class="tech-card fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-golang"></i>
+                    </div>
+                    <h4 class="tech-name">Golang</h4>
+                    <p class="tech-description">Backend & API Development</p>
+                </div>
+                <div class="tech-card fade-in">
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h4 class="tech-name">MySQL</h4>
+                    <p class="tech-description">Data Storage</p>
+                </div>
+                <div class="tech-card fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h4 class="tech-name">HTML5</h4>
+                    <p class="tech-description">Frontend Structure</p>
+                </div>
+                <div class="tech-card fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h4 class="tech-name">CSS3</h4>
+                    <p class="tech-description">Frontend Styling</p>
+                </div>
+                <div class="tech-card fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-sass"></i>
+                    </div>
+                    <h4 class="tech-name">Sass</h4>
+                    <p class="tech-description">CSS Preprocessor</p>
+                </div>
+                <div class="tech-card fade-in">
+                    <div class="tech-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h4 class="tech-name">REST APIs</h4>
+                    <p class="tech-description">Service Communication</p>
+                </div>
+                <div class="tech-card fade-in">
+                    <div class="tech-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h4 class="tech-name">CDN</h4>
+                    <p class="tech-description">Content Delivery</p>
+                </div>
+                <div class="tech-card fade-in">
+                    <div class="tech-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h4 class="tech-name">AWS</h4>
+                    <p class="tech-description">Cloud Infrastructure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">Testimonials</h2>
+            <p class="section-description fade-in">
+                What clients and colleagues say about working with me.
+            </p>
+            <div class="testimonials-container">
+                <div class="testimonial fade-in">
+                    <p class="testimonial-text">
+                        "Working with this developer was a game-changer for our project. Their expertise in Golang and system architecture helped us scale our platform to handle millions of users."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-author-avatar"></div>
+                        <div>
+                            <div class="testimonial-author-name">John Smith</div>
+                            <div class="testimonial-author-title">CTO, TechCorp</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial fade-in">
+                    <p class="testimonial-text">
+                        "The attention to detail and focus on performance optimization was impressive. Our application's response time improved by 40% after their optimizations."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-author-avatar"></div>
+                        <div>
+                            <div class="testimonial-author-name">Sarah Johnson</div>
+                            <div class="testimonial-author-title">Product Manager, StartupX</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <p class="section-description fade-in">
+                Have a project in mind? Let's discuss how we can work together to bring your ideas to life.
+            </p>
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <a href="mailto:contact@example.com">contact@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            San Francisco, CA
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name</label>
+                            <input type="text" id="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea id="message" class="form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#stack">Tech Stack</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-stack-overflow"></i></a>
+                </div>
+                <p class="copyright">© 2024 Dev Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
